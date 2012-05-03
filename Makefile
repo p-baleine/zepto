@@ -8,7 +8,7 @@ MODULES = src/polyfill.js \
 	src/form.js
 
 zepto.js: $(MODULES)
-	cat $^ > $@
+	cat head.js $^ tail.js > $@
 
 clean:
 	rm zepto.js
