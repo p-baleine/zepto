@@ -1,0 +1,10 @@
+{
+  "name": "zepto",
+  "version": "1.0",
+  "description": "Zepto component",
+  "component": {
+    "scripts": {
+      "zepto": ""
+    }
+  }
+}
